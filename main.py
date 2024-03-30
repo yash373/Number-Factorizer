@@ -8,8 +8,9 @@ def factorize(n):
             n //= i
         else:
             i += 1
-    
+
     return factors
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     print(factorize(int(input("Enter Number to Factorize: "))))
